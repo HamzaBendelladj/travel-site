@@ -539,6 +539,8 @@ a {
     text-decoration: none;
     padding:.75rem 1.2rem;
     display: inline-block;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
 }
 
 .btn--orange {
@@ -555,6 +557,11 @@ a {
             font-size: 1.25rem
     }
     }
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
 
 .wrapper {
     overflow: hidden;
