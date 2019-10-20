@@ -1226,6 +1226,8 @@ a {
     }
     }
 
+/* Create hamburger manu like x when clicked */
+
 .site-header__menu-icon--close-x::before {
             -webkit-transform: rotate(45deg) scaleX(1.25);
                     transform: rotate(45deg) scaleX(1.25);
